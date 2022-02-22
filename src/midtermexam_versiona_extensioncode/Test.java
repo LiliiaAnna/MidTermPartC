@@ -1,9 +1,11 @@
 /*
-
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package midtermexam_versiona_extensioncode;
+
+
 
 /**
  *
@@ -12,7 +14,7 @@
 import java.util.Scanner;
 
 
-public class TestUserProfile {
+public class Test {
     public static void main(String[] args) {
         
     Scanner input = new Scanner(System.in);
@@ -31,24 +33,25 @@ public class TestUserProfile {
     
      System.out.println("Select one of your favourite genre: ");
   genre =  input.next();
-    switch(choice){
+    //switch(choice){
         
-        case 1: System.out.println(name+ "Your favourite genre is Comedy");
+        //case 1: System.out.println(name+ "Your favourite genre is Comedy");
     
             break;
     
-         case 2: System.out.println(name+ "Your favourite genre is Thriller");
-         break;
+         //case 2: System.out.println(name+ "Your favourite genre is Thriller");
+         //break;
   
-         case 3: System.out.println(name+ "Your favourite genre is Drama");
-         break;
+         //case 3: System.out.println(name+ "Your favourite genre is Drama");
+         //break;
 
          
-         case 4: System.out.println(name + "Your favourite genre is Crime");
-        break;
+         //case 4: System.out.println(name + "Your favourite genre is Crime");
+        //break;
         
         }
     }
     
 }
+
 
